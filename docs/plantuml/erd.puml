@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/ie-diagram
+
+Entity Subscriber{
+}
+
+Entity Category{
+}
+
+Entity Article{
+}
+
+
+
+
+
+@enduml
