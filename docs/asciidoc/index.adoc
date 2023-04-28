@@ -1,3 +1,12 @@
 = Newsletter (example-project)
 
-ie-diagram
+Diseñar una aplicación que permita enviar newsletter a los suscriptores.
+
+Semanalmente, el sistema confecciona la newsletter con varios artículos, los artículos pueden estar asociados a 1 o N categoría. Se quiere que el sistema envíe la newsletter solo a aquellos suscriptores que tienen alguna relación con las categorías de las que sé componente los artículos incluidos en la newsletter.
+Los suscriptores pueden tener interés en 0 o N categorías.
+
+== ERD
+[plantuml, erd, format=svg]
+----
+include::../plantuml/erd.puml[]
+----

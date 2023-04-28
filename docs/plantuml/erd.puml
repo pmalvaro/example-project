@@ -1,8 +1,12 @@
 @startuml
 'https://plantuml.com/ie-diagram
 
+skinparam linetype ortho
+
 Entity Subscriber{
 }
+
+Entity SubscriberCategory
 
 Entity Category{
 }
@@ -10,8 +14,15 @@ Entity Category{
 Entity Article{
 }
 
+Entity ArticleCategory{
+}
 
 
+Subscriber ||--o{ SubscriberCategory
+Category ||--o{ SubscriberCategory
+
+Article ||--|{ ArticleCategory
+Category ||--o{ ArticleCategory
 
 
 @enduml
